@@ -9,7 +9,7 @@ This was practice for refactoring [xssmap](https://github.com/gingeleski/xssmap)
 ## Powershell smoke test
 
 ```
-cd 'C:\Program Files (x86)\Google\Chrome\Application
+cd 'C:\Program Files (x86)\Google\Chrome\Application'
 
 # Dump DOM to the screen
 .\chrome.exe --headless --disable-gpu --enable-logging --dump-dom https://www.google.com/
